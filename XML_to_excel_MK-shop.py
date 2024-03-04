@@ -10,8 +10,6 @@ def get_xml_data(url):
     root = ET.fromstring(response.content)
     return root
 
-# Rest van je script...
-
 # Functie om de gegevens naar een Excel-bestand te schrijven
 def write_to_excel(root):
     # Maak een lege lijst aan om de gegevens op te slaan
